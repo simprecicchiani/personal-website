@@ -8,11 +8,11 @@ $family-sans-serif: 'Inter', sans-serif;
 // $hero-darken: $dark !default;
 
 @media screen and (max-width: 768px) {
-    .buttons.is-centered-mobile {
-      justify-content: center;
-    }
-    .buttons.is-centered-mobile:not(.has-addons) .button:not(.is-fullwidth) {
-        margin-left: 0.25rem;
-        margin-right: 0.25rem;
-      }
+  .buttons.is-centered-mobile {
+    justify-content: center;
   }
+  .buttons.is-centered-mobile:not(.has-addons) .button:not(.is-fullwidth) {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}

@@ -10,6 +10,11 @@ url: ""
 permalink: pretty
 website: "simoneprecicchiani.com"
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+
 exclude: 
   - Gemfile
   - Gemfile.lock
