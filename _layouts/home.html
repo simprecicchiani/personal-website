@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section class="hero is-fullheight">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-mobile is-centered is-multiline is-vcentered is-variable is-5-tablet">
+                <div class="column is-one-third">
+                    <figure class="image is-square">
+                        <img class="is-rounded" style="object-fit: cover;" src="/assets/images/profile.jpg" alt={{ site.title }}>
+                    </figure>
+                </div>
+                <div class="column content is-full-mobile has-text-centered-mobile">
+                    <h1 >Hi! I'm {{ site.title }}</h1>
+                    {{ content }}
+                    {% include buttons.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-foot p-4">
+        <div class="container is-max-desktop has-text-centered">
+            {% include copyright.html %}
+        </div>
+    </div>
+</section>
+
+{% include resume-modal.html %}
