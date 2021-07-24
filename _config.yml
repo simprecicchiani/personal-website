@@ -19,6 +19,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .DS_Store
+  - .gitignore
 
 sass:
   style: compressed
