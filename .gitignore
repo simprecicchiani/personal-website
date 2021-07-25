@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 .DS_Store
 Gemfile.lock
-package-lock.json
+*package-lock.json
