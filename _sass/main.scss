@@ -4,7 +4,8 @@
 $family-sans-serif: 'Inter', sans-serif;
 // $primary: #188eac !default;
 
-@import "../assets/bulma/bulma.sass";
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-prefers-dark/bulma-prefers-dark.sass";
 // $hero-darken: $dark !default;
 
 @media screen and (max-width: 768px) {
@@ -14,5 +15,28 @@ $family-sans-serif: 'Inter', sans-serif;
   .buttons.is-centered-mobile:not(.has-addons) .button:not(.is-fullwidth) {
     margin-left: 0.25rem;
     margin-right: 0.25rem;
+  }
+}
+
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+.user {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &:before {
+    content: fa-content($fa-var-user);
+  }
+}
+
+.twitter {
+  @extend %fa-icon;
+  @extend .fab;
+
+  &:before {
+    content: fa-content($fa-var-twitter);
   }
 }

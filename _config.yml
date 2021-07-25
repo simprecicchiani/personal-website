@@ -1,25 +1,28 @@
 # Site Settings
 lang: en
 title: Simone Precicchiani
-tagline: tagline
+tagline: Developer and Graphic Designer
 email: simone.precicchiani@gmail.com
 description: >
   description
 baseurl: ""
-url: ""
+url: "https://www.simoneprecicchiani.com"
 permalink: pretty
 website: "simoneprecicchiani.com"
 
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
   - kramdown-parser-gfm
+  - jekyll-sitemap
 
 exclude: 
   - Gemfile
   - Gemfile.lock
+  - package-lock.json
+  - package.json
   - .DS_Store
   - .gitignore
+  - node_modules
 
 sass:
   style: compressed
