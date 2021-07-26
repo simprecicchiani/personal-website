@@ -1,7 +1,7 @@
 - name: "Creative work"
   link: "https://www.behance.net/simprecicchiani"
   icon: "fab fa-behance-square"
-- name: "Developer work"
+- name: "Development work"
   link: "https://github.com/simprecicchiani"
   icon: "fab fa-github"
 - name: "Professional network"

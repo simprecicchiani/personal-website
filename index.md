@@ -2,10 +2,8 @@
 layout: home
 ---
 
-I’m a pragmatic problem solver.
-I’m into computers and technologies and I like to code.
-I’m a self learner and a fan of open source. I like to share my knowledge and receive feedbacks.
+MSc student in Corporate Finance @ LUISS University of Rome. Graduated in Business & Management.
 
-I’m into graphic design and I started working as a freelancer 10 years ago. I recently discovered front-end development and made a bunch of projects.
+10+ years of experience as graphic designer, recently become front-end web developer. Currently into data analysis with Python.
 
-I listen to jazz music 🎷 and watch motorsports 🏎.
+Pragmatic problem solver, enthusiastic self-learner, passionate about technology and fan of open-source.
