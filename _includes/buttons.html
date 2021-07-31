@@ -1,6 +1,6 @@
 <div class="buttons is-centered-mobile">
     {% for button in site.data.buttons %}
-    <a class="button {{button.color}}"
+    <a title="{{button.title}}" class="button {{button.color}}"
     {%- if button.link -%}
         href="{{button.link}}" target="blank"
     {%- elsif button.id -%}
