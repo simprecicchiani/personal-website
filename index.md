@@ -1,5 +1,6 @@
 ---
 layout: home
+image: "/assets/images/profile.webp"
 ---
 
 MSc student in Corporate Finance @ LUISS University of Rome. Graduated in Business & Management.
