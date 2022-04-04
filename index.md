@@ -3,9 +3,8 @@ layout: home
 image: "/assets/images/profile.webp"
 ---
 
-MSc student in Corporate Finance @ LUISS University of Rome. Graduated in Business & Management.
+MSc student in Corporate Finance @ LUISS University of Rome. Graduated in Economics & Management.
 
-Spreadsheet expert, currently into data analysis with Python.
-10+ years of experience as graphic designer, recently become front-end web developer.
+Pragmatic problem solver and enthusiastic self-learner.
 
-Pragmatic problem solver, enthusiastic self-learner, passionate about technology and fan of open-source.
+Passionate about programming, data analysis, and financial modelling. In 2022 I developed a financial service API using FastAPI, **Python** and **MongoDB**. 10+ years of experience as **graphic designer**, recently got into web development.
