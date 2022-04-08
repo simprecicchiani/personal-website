@@ -1,0 +1,11 @@
+<div class="buttons">
+    {{ range site.Data.buttons }}
+    <a title="{{.title}}" class="button {{.color}}" {{ if .link }} href="{{.link}}" target="blank" {{ else if .id }}
+        id="{{.id}}" {{ end }}>
+        <span class="icon">
+            <i class="{{.icon}} fa-lg"></i>
+        </span>
+        <span>{{.name}}</span>
+    </a>
+    {{ end }}
+</div>

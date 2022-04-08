@@ -1,0 +1,41 @@
+@charset "utf-8"
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+
+// Update Bulma's global variables
+$family-sans-serif: "DM Sans", sans-serif
+$primary: #0068ff
+$link: #0068ff
+
+$radius: 0rem
+$card-radius: 0rem
+
+// Update Bulma's component variables
+$footer-padding: 2rem
+$footer-background-color: unset
+
+// Import Bulma core
+@import "../node_modules/bulma/bulma"
+// @import "../node_modules/bulma-prefers-dark/bulma-prefers-dark"
+
+.card
+    transition: transform 0.3s
+    &:hover
+        transform: scale(1.05)
+
+.button
+    transition: transform 0.3s
+    &:hover
+        transform: scale(1.05)
+
+div
+    .has-transition
+        transition: transform 0.3s
+        &:hover
+            transform: scale(1.05)
+
+.navbar-item
+    background-color: unset !important
+
+.disabled-link
+    pointer-events: none

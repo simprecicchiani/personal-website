@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
+    {{ partial "opengraph" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/fa/css/all.min.css">
+    {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+    {{ $style := resources.Get "sass/sp.sass" | resources.ToCSS $options }}
+    <link rel="stylesheet" type="text/css" href='{{ $style.Permalink }}'>
+    <!-- Google Analytics v4 (gtag.js) -->
+    {{ template "_internal/google_analytics.html" . }}
+</head>
+
+<body>
+
+    <section class="hero is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar is-spaced" id="navbar" role="navigation" aria-label="main navigation">
+                <div class="container is-max-desktop">
+                    {{ partial "navbar" . }}
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                {{ block "main" . }}
+                {{ end }}
+            </div>
+        </div>
+        <div class="hero-foot">
+            <div class="footer">
+
+                <div class="container is-max-desktop">
+                    {{ partial "footer" . }}
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src='{{ (resources.Get "js/main.js" | js.Build).Permalink }}'></script>
+</body>
+
+</html>

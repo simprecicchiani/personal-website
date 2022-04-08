@@ -1,0 +1,28 @@
+baseURL: "https://www.simoneprecicchiani.com"
+languageCode: "en"
+title: "Simone Precicchiani"
+
+googleAnalytics: G-HP9L1NXMN4
+
+# Open Graph
+params:
+  description: "Developer and Graphic Designer"
+  image: "/images/profile.webp"
+  title: "Simone Precicchiani"
+
+
+disableKinds:
+  - taxonomy
+  - term
+
+summaryLength: 10
+paginate: 6
+
+defaultContentLanguage: en
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+enableRobotsTXT: true
