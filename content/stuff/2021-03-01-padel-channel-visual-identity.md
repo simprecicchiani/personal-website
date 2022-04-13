@@ -1,11 +1,11 @@
 ---
 date: 2021-03-01
 title: padel channel visual identity
-image: /images/padel-channel-visual-identity/01.png
+image: /images/padel-channel-visual-identity/01.webp
 ---
 
-![](/images/padel-channel-visual-identity/01.png)
-![](/images/padel-channel-visual-identity/02.png)
-![](/images/padel-channel-visual-identity/03.png)
-![](/images/padel-channel-visual-identity/04.png)
-![](/images/padel-channel-visual-identity/05.jpg)
+![](/images/padel-channel-visual-identity/01.webp)
+![](/images/padel-channel-visual-identity/02.webp)
+![](/images/padel-channel-visual-identity/03.webp)
+![](/images/padel-channel-visual-identity/04.webp)
+![](/images/padel-channel-visual-identity/05.webp)
