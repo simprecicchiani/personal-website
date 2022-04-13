@@ -1,6 +1,16 @@
 {{ define "title" }} {{ .Title }} &#124; {{ .Site.Title }} {{ end }}
 {{ define "main" }}
-{{ range .Paginator.Pages }}
-<a href="{{.Permalink}}">{{.Title}}</a>
+{{ range .Pages.GroupByDate "2006" }}
+<p class="title is-2">{{.Key}}</p>
+<hr>
+<div class="columns is-multiline mt-6">
+    {{ range .Pages }}
+    <div class="column is-one-third">
+        {{ partial "card" . }}
+    </div>
+
+    {{ end }}
+</div>
+
 {{ end }}
 {{ end }}

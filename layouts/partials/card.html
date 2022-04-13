@@ -1,0 +1,17 @@
+<a href="{{.Permalink}}">
+
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-square">
+                <img src="{{.Params.image}}" alt="{{.Params.Company}}" srcset="" style="object-fit: cover;">
+            </figure>
+        </div>
+    </div>
+    <div class="content">
+
+        <p class="title is-size-3 mt-4">{{.Title}}</p>
+        {{ with .Params.description }}
+        <p class="subtitle">{{.Params.description}}</p>
+        {{ end }}
+    </div>
+</a>

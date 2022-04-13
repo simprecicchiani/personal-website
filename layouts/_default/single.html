@@ -1,6 +1,14 @@
 {{ define "title" }} {{ .Title }} &#124; {{ .Site.Title }} {{ end }}
 {{ define "main" }}
-<div class="content">
-    {{ .Content }}
+<div class="column is-8 is-offset-2">
+    <div class="content">
+        {{ if eq .Type "stuff" }}
+        <h1 class="title">{{ .Title }}</h1>
+        {{ with .Params.description }}
+        <p class="subtitle">{{ . }}</p>
+        {{ end }}
+        {{ end }}
+        {{ .Content }}
+    </div>
 </div>
 {{ end }}
